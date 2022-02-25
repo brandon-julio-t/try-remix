@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:E:\\repos\\remix-gql-placeholder\\app\\routes\\posts.tsx?browser", "../../../app/routes/posts.tsx"],
+  "sourcesContent": ["export { default } from \"E:\\\\repos\\\\remix-gql-placeholder\\\\app\\\\routes\\\\posts.tsx\";", "import ServiceContainer from 'facades/service-container';\r\nimport React from 'react';\r\nimport { useLoaderData } from 'remix';\r\nimport UserService from 'services/user-service';\r\n\r\nexport const loader = async () => {\r\n  const svc = ServiceContainer.get<UserService>(UserService);\r\n  return svc.getAllUsers();\r\n};\r\n\r\nconst Posts = () => {\r\n  const users = useLoaderData();\r\n  console.log(users);\r\n  return <div>Posts</div>;\r\n};\r\n\r\nexport default Posts;\r\n"],
+  "mappings": ";;;;;;;;AAAA;;;ACAA;AACA,mBAAkB;AASlB,IAAM,QAAQ,MAAM;AAClB,QAAM,QAAQ;AACd,UAAQ,IAAI;AACZ,SAAO,mDAAC,OAAD,MAAK;AAAA;AAGd,IAAO,gBAAQ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:E:\\repos\\remix-gql-placeholder\\app\\routes\\index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"E:\\\\repos\\\\remix-gql-placeholder\\\\app\\\\routes\\\\index.tsx\";", "import { Link } from 'remix';\n\nexport default function Index() {\n  return (\n    <main>\n      <Link to=\"/posts\">Posts</Link>\n    </main>\n  );\n}\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,QAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAS;AAAA;",
+  "names": []
+}

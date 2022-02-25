@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:E:\\repos\\remix-gql-placeholder\\app\\routes\\posts.tsx?browser", "../../../app/routes/posts.tsx"],
+  "sourcesContent": ["export { default } from \"E:\\\\repos\\\\remix-gql-placeholder\\\\app\\\\routes\\\\posts.tsx\";", "import React from 'react'\r\n\r\nfunction posts() {\r\n  return (\r\n    <div>posts</div>\r\n  )\r\n}\r\n\r\nexport default posts\r\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAAA,mBAAkB;AAElB,iBAAiB;AACf,SACE,mDAAC,OAAD,MAAK;AAAA;AAIT,IAAO,gBAAQ;",
+  "names": []
+}

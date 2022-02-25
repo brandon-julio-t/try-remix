@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:E:\\repos\\remix-gql-placeholder\\app\\routes\\posts.tsx?browser", "../../../app/routes/posts.tsx"],
+  "sourcesContent": ["export { default } from \"E:\\\\repos\\\\remix-gql-placeholder\\\\app\\\\routes\\\\posts.tsx\";", "import React from 'react';\r\n\r\nexport const loader = async () => {\r\n  return [\r\n    {\r\n      slug: 'my-first-post',\r\n      title: 'My First Post',\r\n    },\r\n    {\r\n      slug: '90s-mixtape',\r\n      title: 'A Mixtape I Made Just For You',\r\n    },\r\n  ];\r\n};\r\n\r\nconst Posts = () => {\r\n  const posts = useLoaderData();\r\n  console.log(posts);\r\n  return <div>Posts</div>;\r\n};\r\n\r\nexport default Posts;\r\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAAA,mBAAkB;AAelB,IAAM,QAAQ,MAAM;AAClB,QAAM,QAAQ;AACd,UAAQ,IAAI;AACZ,SAAO,mDAAC,OAAD,MAAK;AAAA;AAGd,IAAO,gBAAQ;",
+  "names": []
+}
